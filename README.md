@@ -25,6 +25,12 @@ To install this plugin, download or clone the sources and run
 $ python3 setup.py install
 ```
 
+Or, to install for the current user only:
+
+```
+$ python3 setup.py install --user
+```
+
 To download a CSV file from First Republic,
 go to their [online banking site](https://www.firstrepublic.com/bankingonline) and log in.
 On the Account Activity page, click the Filter tab, select a date range, and click Apply.
